@@ -8,7 +8,6 @@ def oxford_comma(array)
     element1 = array[0]
     element2 = array[1]
     "#{element1} and #{element2}"
-    
   end
   array.join(", ")
 end
