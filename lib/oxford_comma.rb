@@ -3,7 +3,7 @@ require 'pry'
 def oxford_comma(array)
   if array.length <= 1 
     array.join
-  if array.length > 2
+  elsif array.length > 2
     element = array[-1]
     array[-1] = "and #{element}"
     array.join(",")
